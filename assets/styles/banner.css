@@ -1,0 +1,88 @@
+.wrapper_banner {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 5; }
+  @media (max-width: 767px) {
+    .wrapper_banner {
+      background-position: center right; } }
+  .wrapper_banner > img {
+    width: 100%;
+    height: auto; }
+    @media (max-width: 767px) {
+      .wrapper_banner > img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+        object-position: center;
+        height: 100%; } }
+  .wrapper_banner .banner {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -485px;
+    max-width: 970px;
+    padding: 75px 15px 0; }
+    @media (max-width: 969px) {
+      .wrapper_banner .banner {
+        max-width: 100%;
+        margin-left: 0;
+        width: 100%;
+        left: 0; } }
+    @media (max-width: 767px) {
+      .wrapper_banner .banner {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 7;
+        padding-bottom: 40px; } }
+    .wrapper_banner .banner__title {
+      font-family: Montserrat;
+      font-size: 48px;
+      line-height: 53px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -0.04em;
+      color: #314a5b;
+      max-width: 480px;
+      margin-top: 270px; }
+      @media (max-width: 969px) {
+        .wrapper_banner .banner__title {
+          margin-top: 170px; } }
+      @media (max-width: 767px) {
+        .wrapper_banner .banner__title {
+          margin-top: 50px;
+          font-size: 28px;
+          line-height: 33px;
+          max-width: 180px; } }
+      .wrapper_banner .banner__title span {
+        color: #fa5c65; }
+    .wrapper_banner .banner__text {
+      font-family: 'Open Sans';
+      font-size: 20px;
+      line-height: 40px;
+      font-weight: 400;
+      color: #314a5b;
+      margin-top: 20px; }
+      @media (max-width: 767px) {
+        .wrapper_banner .banner__text {
+          font-size: 14px;
+          line-height: 30px; } }
+    .wrapper_banner .banner__btn {
+      width: 171px;
+      height: 64px;
+      background-color: #fa5c65;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-family: 'Open Sans';
+      font-size: 15px;
+      line-height: 48px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-top: 20px;
+      border-radius: 6px; }
+
+/*# sourceMappingURL=banner.css.map */
