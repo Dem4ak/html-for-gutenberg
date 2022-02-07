@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link rel="stylesheet" href="./assets/styles/reset.css">
+  <link rel="stylesheet" href="./assets/styles/global.css">
+  <link rel="stylesheet" href="./assets/styles/icons.css">
+  <link rel="stylesheet" href="./assets/styles/header.css">
+  <link rel="stylesheet" href="./assets/styles/banner.css">
+  <link rel="stylesheet" href="./assets/styles/advantages.css">
+  <link rel="stylesheet" href="./assets/styles/portfolio.css">
+  <link rel="stylesheet" href="./assets/styles/our_team.css">
+  <link rel="stylesheet" href="./assets/styles/footer.css">
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="header__logo">
+          <a href="/"><img src="./assets/images/logo.png" alt="Logotype"></a>
+        </div>
+        <div class="header__nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="header__socials">
+          <a href="#"><i class="icon icon-twitter"></i></a>
+          <a href="#"><i class="icon icon-facebook"></i></a>
+        </div>
+        <button class="header__burger" onclick="this.classList.toggle('open'); this.previousElementSibling.previousElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper_banner">
+    <img src="./assets/images/header_bg.jpg" alt="header background">
+    <div class="banner">
+      <h1 class="banner__title">intelligence is nothing without ambition<span>.</span></h1>
+      <div class="banner__text">We’re small but impressive creative agency.</div>
+      <a href="#" class="banner__btn">Read more</a>
+    </div>
+  </div>
+
+  <div class="wrapper_advantages">
+    <div class="container">
+      <div class="advantages">
+        <div class="advantage">
+          <div class="advantage__title">Peace <br>Of Mind<span>.</span></div>
+          <div class="advantage__text">You’re safe with us. The privacy and security of your financial information is our top priority.</div>
+          <a class="advantage__link" href="#">More <i class="icon icon-arrow"></i></a>
+        </div>
+        <div class="advantage">
+          <div class="advantage__title">Free<span>.</span> <br>Actually Free<span>.</span></div>
+          <div class="advantage__text">No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</div>
+          <a class="advantage__link" href="#">More <i class="icon icon-arrow"></i></a>
+        </div>
+        <div class="advantage">
+          <div class="advantage__title">Simple <br>payments<span>.</span></div>
+          <div class="advantage__text">The same debit card you use to buy coffee lets deposit money straight to your bank account.</div>
+          <a class="advantage__link" href="#">More <i class="icon icon-arrow"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper_portfolio">
+    <div class="container">
+      <div class="portfolio">
+        <div class="portfolio__image">
+          <img src="./assets/images/mac.jpg" alt="macbook">
+        </div>
+        <div class="portfolio__content">
+          <div class="portfolio__content-title">PORTFOLIO<span>.</span></div>
+          <div class="portfolio__content-subtitle">We are small, but strong team</div>
+          <div class="portfolio__content-text">
+            <p>No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</p>
+            <p>The same debit card you use to buy coffee lets deposit money straight to your bank account.</p>
+          </div>
+          <a class="portfolio__content-link" href="#">More <i class="icon icon-arrow"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper_our_team">
+    <div class="container">
+      <div class="our_team">
+        <div class="our_team__title">Our team.</div>
+        <div class="our_team__subtitle">They are big but still friendly.</div>
+        <div class="our_team__list">
+          <div class="employee">
+            <div class="employee__image">
+              <img src="./assets/images/employe_1.png" alt="employe_1">
+            </div>
+            <div class="employee__info">
+              <div class="employee__info-title">Joey</div>
+              <div class="employee__info-position">Web developer</div>
+              <div class="employee__info-text">Coffee lover.  Always on bike. iPhone fan.</div>
+            </div>
+          </div>
+          <div class="employee">
+            <div class="employee__image">
+              <img src="./assets/images/employe_2.png" alt="employe_1">
+            </div>
+            <div class="employee__info">
+              <div class="employee__info-title">Matt</div>
+              <div class="employee__info-position">Web designer</div>
+              <div class="employee__info-text">MTB Biker. Photoshop Master. Loving Father.</div>
+            </div>
+          </div>
+          <div class="employee">
+            <div class="employee__image">
+              <img src="./assets/images/employe_3.png" alt="employe_1">
+            </div>
+            <div class="employee__info">
+              <div class="employee__info-title">Mike</div>
+              <div class="employee__info-position">Copywriter</div>
+              <div class="employee__info-text">Drummer. Soup lover. Beer Drinker. Cyclist.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__socials">
+          <a href="#"><i class="icon icon-twitter"></i></a>
+          <a href="#"><i class="icon icon-facebook"></i></a>
+          <a href="#"><i class="icon icon-linkedin"></i></a>
+        </div>
+        <div class="footer__copyright">© Freelancer - Development by Roman Demchenko</div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
